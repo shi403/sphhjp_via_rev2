@@ -2,7 +2,7 @@
 #pragma once
 
 /* key matrix size */
-#define MATRIX_ROWS 10 
+#define MATRIX_ROWS 10
 #define MATRIX_COLS 8
 
 #define MATRIX_ROW_PINS       { B0, B1, B2, B3, B4 }
@@ -18,7 +18,7 @@
 #define SOFT_SERIAL_PIN D3 /* serial communication pin */
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
+#define DEBOUNCE 30
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
