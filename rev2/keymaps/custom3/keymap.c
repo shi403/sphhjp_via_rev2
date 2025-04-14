@@ -87,24 +87,24 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 // Add additional actions here if needed
             }
             return false;
-        case LT_LFNC:
-            if (record->event.pressed) {
-                layer_on(FUNC);
-                // Add additional actions here if needed
-            } else {
-                layer_off(FUNC);
-                // Add additional actions here if needed
-            }
-            return false;
-        case LT_RNUM:
-            if (record->event.pressed) {
-                layer_on(NUM);
-                // Add additional actions here if needed
-            } else {
-                layer_off(NUM);
-                // Add additional actions here if needed
-            }
-            return false;
+        // case LT_LFNC:
+        //     if (record->event.pressed) {
+        //         layer_on(FUNC);
+        //         // Add additional actions here if needed
+        //     } else {
+        //         layer_off(FUNC);
+        //         // Add additional actions here if needed
+        //     }
+        //     return false;
+        // case LT_RNUM:
+        //     if (record->event.pressed) {
+        //         layer_on(NUM);
+        //         // Add additional actions here if needed
+        //     } else {
+        //         layer_off(NUM);
+        //         // Add additional actions here if needed
+        //     }
+        //     return false;
         default:
             return true;
   }
